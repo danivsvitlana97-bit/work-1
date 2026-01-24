@@ -1,3 +1,162 @@
-body **{
-	background-color: #fff;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", "Roboto", sans-serif;
+    text-decoration: none;
 }
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    background-color: #FFFFFF;
+    color: #212121;
+}
+.title{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: auto;
+    width: 145px; 
+    height: 31px; 
+}
+.part1{
+    color: #2196F3;
+}
+.part2{
+    color: #000000;
+}
+.part-last{
+    color: #FFFFFF;
+}
+
+.nav{
+    font-size: 145px;
+
+    line-height: 1.2em;
+    color: #212121;
+}
+.nav:hover,
+.nav:active{
+    color: #2196F3;
+    cursor: pointer;
+}
+.contact{
+    font-size: 14px;
+    line-height: 1.2em;
+    color: #757575;
+}
+.contact:hover,
+.contact:active{
+    color: #2196F3;
+    cursor: pointer;
+}
+.hero{
+    background-color: #2F303A;
+} 
+
+.h2{
+    text-align: center;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3em;
+    box-sizing: border-box;
+    width: 696px;
+    height: 120px; 
+}
+.h2{
+    color: #FFFFFF;
+}
+
+.button {
+    font-family: inherit;
+    line-height: 1.8em;
+    width: 216px;
+     height: 50px; 
+    background-color: #2196F3;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+button:hover,
+button:active{
+    background-color: #1976D2;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.button2{
+    font-family: inherit;
+    line-height: 1.6em ;
+    padding: 6px 20px 6px 22px;
+    /* width: 125px; 
+    height: 38px; */
+   border: #2196F3 solid 1px;
+    background-color: #F5F4FA;
+        color: #212121;
+}
+.button2:hover,
+.button2:active{
+    background-color: #2196F3;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.list{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2em;
+    color: #212121;
+}
+
+.text{
+    font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #757575;
+}
+.team{
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.2em;
+    font: Roboto;
+    font-size: 36px;
+}
+.desk{
+    font-size: 18px;
+    line-height: 2.0em;
+    font-weight: 700;
+}
+.name{
+    font-size: 16px;
+    line-height: 1.2em;
+    font-weight: 500;
+color: #212121;
+}
+
+.work{
+    font-size: 16px;
+    line-height: 1.8em;
+    font-weight: 400;
+    color: #757575;
+}
+
+.footer{
+    background-color: #2F303A;
+}
+
+.adress{
+    font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.contact-last{
+   background-clip: text;
+   color: #ffffff60;
+}
+
+
+
+
+
+   
