@@ -9,24 +9,27 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+   <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css">
     <link rel="stylesheet" href="css/styles.css">
     </head>
 <body>
     <header>
+        <div class="container header">
         <a href="#" class="title">
             <h1 lang="en"><span class="part1">Web</span>
                 <span class="part2">Studio</span></h1>
         </a>
         <nav>
-            <ul>
+            <ul class="site-nav">
                 <li><a href="#" class="nav">Студія</a></li>
                 <li><a href="./portfolio.html" class="nav">Портфоліо</a></li>
                 <li><a href="#" class="nav">Контакти</a></li>
             </ul>
         </nav>
-            <div >
+            <div class="contact1">
                 <a href="tel:+380961111111" class="contact">+38 096 111 11 11</a>
                 <a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a>
+            </div>
             </div>
     </header>
 <main>
@@ -34,23 +37,26 @@
     <h2 class="headline">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h2>
     <button type= "button" class="headline-btn">Замовити послугу</button>
 </section>
-<section>
+<div class="container hero-list">
+  <section class="list1">
        <h2 class="list"> УВАГА ДО ДЕТАЛЕЙ</h2>
          <p class="text">Ідейні міркування,i навіть початок повсякденної роботи з формування позиції</p>
-</section>
-         <section>
+  </section>
+     <section class="list1">
     <h2 class="list">ПУНКТУАЛЬНІСТЬ</h2>
     <p class="text">Завдання організації,особливо рамки i місце навчання кадрів тягне у себе</p>
-         </section>
-            <section>
+     </section>
+      <section class="list1">
     <h2 class="list">ПЛАНУВАННЯ</h2>
     <p class="text">Так само консультація з широким активом значною мірою зумовлює</p>
-            </section>
-            <section>
+     </section>
+     <section class="list1">
     <h2 class="list">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
     <p class="text">Значимість цих проблем настільки очевидна,що реалізація планових завдань</p>
-            </section>
-<section>
+     </section>
+</div>
+<div class="container">
+  <section>
     <h2 class="team">ЧИМ МИ ЗАЙМАЄМОСЬ</h2>
     <ul class="images">
         <li><img src= "image/box1.jpg" alt= "набирає текст на клавіатурі" width=370></li>
@@ -58,9 +64,11 @@
         <li><img src= "image/box3.jpg" alt= "планшет у руках" width=370></li>
     </ul>
 </section>
+</div>
 <section>
+ <div class="container">
     <h2 class="team">НАША КОМАНДА</h2>
-    <ul>
+    <ul class="team-work">
         <li>
             <img src="image/img.jpg" alt="чоловік" width=270>
            <h3 class="name">Ігор Дем'яненко</h3>
@@ -79,8 +87,10 @@
         <p lang="en" class="work">UI Designer</p></li>
     </ul>
 </section>
+</div>
 </main>
-<footer class="footer">
+<footer>
+  <div class="container">
     <a href="#" class="title">
         <h1 lang="en"><span class="part1">Web</span>
             <span class="part-last">Studio</span>
@@ -91,6 +101,7 @@
         <a href="tel:+380961111111" class="contact-last">+38 096 111 11 11</a>
         <a href="mailto:info@devstudio.com" class="contact-last">info@devstudio.com</a>
     </address>
+</div>
 </footer>
 </body>
 </html>
